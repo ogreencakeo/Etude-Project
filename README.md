@@ -8,10 +8,12 @@
 <p>
   03. 주요기능
 </p>
+<br />
 <div>
   <h2>01. 사용기술</h2>
   <li>HTML, CSS, JavaScript</p> 
 </div>
+<br />
 <div>
   <h2>02. 사이트 구성</h2>
   <ul>
@@ -41,6 +43,7 @@
   <img style="width : 600px; height : 400px" src ="https://raw.githubusercontent.com/ogreencakeo/Etude-Project/main/etude/page.png" />
   <br />
 </div>
+<br />
 <div>
   <h2>03.주요 기능</h2>
   <ul>
