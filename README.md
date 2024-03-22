@@ -1,4 +1,5 @@
 <h1>에뛰드 하우스 제작 사이트</h1>
+<p>제작기간 : 약 1개월</p>
 <p>
   01. 사용 기술
 </p>
@@ -40,7 +41,7 @@
     </li>
   </ul>
   <br />
-  <img style="width : 600px; height : 400px" src ="https://raw.githubusercontent.com/ogreencakeo/Etude-Project/main/etude/page.png" />
+  <img style="width : 600px; height : 450px" src ="https://raw.githubusercontent.com/ogreencakeo/Etude-Project/main/etude/page.png" />
   <br />
 </div>
 <br />
