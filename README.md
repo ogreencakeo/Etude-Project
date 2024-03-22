@@ -41,7 +41,7 @@
     </li>
   </ul>
   <br />
-  <img style="width : 600px; height : 450px" src ="https://raw.githubusercontent.com/ogreencakeo/Etude-Project/main/etude/page.png" />
+  <img style="width : 650px; height : 400px" src ="https://raw.githubusercontent.com/ogreencakeo/Etude-Project/main/etude/page.png" />
   <br />
 </div>
 <br />
