@@ -1,0 +1,391 @@
+/* 파운데이션 팩토리 - 상단 */
+.factory-top-area{
+    max-width: 100%;
+}
+
+.factory-top-area video{
+    width: 100%;
+}
+
+.factory-select-option{
+    width: 100%;
+    text-align: center;
+}
+
+.factory-select-option button{
+    margin: 0 10px 20px;
+    border: 0;
+    background-color: #fff;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Jua';
+    cursor: pointer;
+    color: gray;
+}
+
+.factory-select-option button.on{
+    color: #000;
+    font-weight: 800;
+}
+
+/* 파운데이션 팩토리 - 중간 부분 */
+.factory-middle-cont{
+    max-width: 100%;
+    background-color: #ffffff;
+}
+
+/* 맞춤형 서비스 */
+.customized-service-bx{
+    max-width: 1035px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 15px;
+    justify-content: space-between;
+}
+.customized-service-bx-l{
+    width: 37%;
+}
+.customized-service-bx-l h1{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+.customized-service-bx-l h3{
+    font-size: 1.5rem;
+    font-family: 'Jua';
+    color: palevioletred;
+    margin-bottom: 40px;
+}
+.customized-service-bx-r{
+    width: 58%;
+}
+.customized-service-cont{
+    display: flex;
+    align-items: center;
+}
+.customized-service-cont p{
+    margin: 0 8px 20px;
+    font-size: 1rem;
+}
+.customized-service-cont p:first-child{
+    font-size: 1.8rem;
+}
+
+.customized-service-cont p:nth-child(2){
+    font-size: 1.2rem;
+}
+
+.customized-service-cont p:nth-child(3){
+    font-size: 0.9rem;
+}
+
+.customized-service-cont:nth-child(3) p:last-child{
+    color: gray;
+    font-size: .8rem;
+}
+
+/* 팩토리 모델 배너 */
+.factory-model-img{
+    max-width: 1280px;
+    margin: 60px auto 100px;
+    position: relative;
+    overflow: hidden;
+}
+.factory-model-img>img{
+    width: 100%;
+    aspect-ratio: 2.45/1;
+    position: relative;
+    animation: shake-img .1s linear infinite alternate;
+}
+.factory-model-img>img.on{
+    animation-play-state: paused;
+    transform: translate(0, 0);
+}
+
+@keyframes shake-img {
+    0%{
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(-15px, 5px);
+    }
+    50%{
+        transform: translate(15pxm -5px);
+    }
+    75%{
+        transform: translate(-15px, 5px);
+    }
+}
+.factory-banner-cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+.factory-banner-cont>p{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Jua';
+}
+
+/* 팩토리 예약하기 페이지 */
+.factory-reserve-bx{
+    max-width: 100%;
+    position: relative;
+}
+.factory-reserve-bx>img{
+    width: 100%;
+    aspect-ratio: 4.5/1;
+    object-fit: cover;
+    position: relative;
+}
+
+.factory-reserve-bx>div{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.factory-reserve-bx>div>button{
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #000000e2;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.factory-reserve-bx>div>button:hover{
+    background-color: #000000a9;
+}
+
+/* 나만의 파운데이션 만들기 */
+.make-own-customized{
+    max-width: 1280px;
+    margin: 100px auto 60px;
+}
+
+.make-own-tit h1,
+.make-own-tit h2{
+    text-align: center;
+}
+
+.make-own-tit h1{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: 'Gugi';
+}
+.make-own-tit h2{
+    font-size: 1.5rem;
+    color: palevioletred;
+}
+.make-own-tit p{
+    text-align:end;
+    margin: 10px 0;
+}
+
+.make-own-bx-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.make-own-bx{
+    width: 33%;
+    position: relative;
+    overflow: hidden;
+    transition: .4s ease-in-out;
+    margin-bottom: 10px;
+    transform: translateY(50%);
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+
+.make-own-bx.on{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.make-own-bx img{
+    width: 100%;
+    aspect-ratio: 1.2/1;
+    position: relative;
+    transition: .4s ease-in-out;
+    transform: scale(1);
+}
+
+.make-own-cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.make-own-cont p{
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: .4s ease-in-out;
+}
+
+.make-own-cont p:first-child,
+.make-own-cont p:last-child{
+    font-size: 2rem;
+    font-family: 'Gugi';
+    text-shadow: 1px 1px 3px #000;
+}
+
+.make-own-cont p:nth-child(2){
+    text-shadow: 1px 1px 1px #000;
+}
+
+.make-own-bx:hover{
+    filter: grayscale(80%);
+}
+
+.make-own-bx:hover img{
+    transform: scale(1.1);
+}
+
+.make-own-bx:hover .make-own-cont p{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 팩토리 하단 부분 */
+.factory-bottom-cont{
+    max-width: 100%;
+}
+
+/* 팩토리 하단 배경 이미지 */
+.factory-bottom-cont-bg{
+    max-width: 100%;
+    margin: 100px 0 100px;
+}
+
+.factory-bottom-bg{
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: url(../image/foundation_factory/bottom_bg.jpg) no-repeat top fixed;
+    /* background-size: cover;  */
+    object-fit: contain;
+}
+
+.store-position-bx{
+    max-width: 1035px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 15px;
+    justify-content: space-between;
+}
+.store-position-bx-l{
+    width: 37%;
+}
+.store-position-bx-l h1{
+    font-size: 2rem;
+    font-family: 'Jua';
+}
+.store-position-bx-l h3{
+    color: palevioletred;
+    margin: 10px 0;
+}
+.store-position-bx-r{
+    width: 58%;
+}
+.store-position-cont{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.store-position-cont p{
+    margin: 0 8px;
+    font-size: 1rem;
+}
+
+.store-position-cont p:first-child{
+    font-size: 1.8rem;
+}
+
+/* 지도 이미지 */
+.factory-map-img{
+    max-width: 1000px;
+    margin: 10px auto 100px;
+    overflow: hidden;
+}
+.factory-map-img>img{
+    width: 100%;
+    aspect-ratio: 3/1;
+    opacity: 0;
+    transform: translateY(-150%);
+    transition: 1s ease-in;
+}
+.factory-map-img>img.on{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 팩토리 둘러보기 이미지 */
+.factory-take-tour-wrap{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.factory-take-tour-wrap h1{
+    font-size: 2.5rem;
+    font-family: 'Jua';
+    margin: 5px 0;
+    text-align: center;
+}
+.factory-take-tour-wrap h2{
+    text-align: center;
+    color: palevioletred;
+    margin-bottom: 20px;
+}
+.factory-take-tour{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.factory-take-tour-bx{
+    width: 24%;
+}
+
+.factory-take-tour-bx img{
+    width: 100%;
+    aspect-ratio: 1/1.1;
+}
+
+.factory-take-tour-bx.on{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.factory-take-tour-bx{
+    opacity: 0;
+    transition: .4s ease-in-out;
+    transform: scale(0);
+}
+
+/* 팩토리 공지글 */
+.foundation-factory-wrap .store-notice{
+    max-width: 1280px;
+    margin: 0 auto 50px;
+}
+.foundation-factory-wrap .store-notice .store-notice-bx{
+    width: 80%;
+    margin: 0 auto;
+}

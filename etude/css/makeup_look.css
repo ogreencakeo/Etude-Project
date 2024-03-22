@@ -1,0 +1,93 @@
+.makeup-look-main{
+    max-width: 100%;
+}
+.makeup-grid{
+    display: grid;
+    max-width: 100%;
+    /* height: 100vh; */
+    grid-template-columns: repeat(4,2fr);
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.makeup-grid:nth-child(2n) div:nth-child(3){
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.makeup-grid:nth-child(2n-1) div:first-child{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.makeup-grid>div:first-child{
+    /* grid-row: span 2;
+    grid-column: span 2; */
+}
+
+.makeup-grid>div img{
+    width: 100%;
+    height: 100%;
+    transition: .4s ease-in;
+}
+
+.makeup-grid-bx{
+    position: relative;
+    transition: .4s ease-in;
+    overflow: hidden;
+}
+
+.makeup-grid-bx>img{
+    position: relative;
+}
+
+.makeup-grid-cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.makeup-grid-cont p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #fff;
+    opacity: 0;
+    transition: .4s ease-in;
+}
+.makeup-grid-cont p:first-child{
+    font-size: 1.8rem;
+    font-family: 'Gugi';
+}
+.makeup-grid-bx:hover{
+    filter: grayscale(100%);
+}
+.makeup-grid-bx:hover img{
+    transform: scale(1.1);
+}
+
+.makeup-grid-bx:hover .makeup-grid-cont p{
+    opacity: 1;
+}
+
+/* 링크 페이지 */
+.link-wrap{
+    text-align: center;
+}
+
+.link-wrap button{
+    background-color: #fff;
+    font-size: 1.2rem;
+    margin: 10px 3px 15px;
+    border: 0;
+    cursor: pointer;
+}
+.link-to-btn{
+    color: grey;
+}
+.link-to-btn.on{
+    color: black;
+    font-weight: 800;
+}

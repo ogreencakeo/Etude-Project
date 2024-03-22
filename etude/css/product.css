@@ -1,0 +1,138 @@
+body, html, div>*{
+    /* border: 1px solid red; */
+}
+
+/* 메인페이지 */
+.product-main-wrap{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 상품 메인페이지 - 왼쪽 */
+.product-main-left{
+    width: 30%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+/* 카테고리 클릭시 배경 변경 */
+.product-main-left.eye{
+    background: url(../image/product/bg/eye.jpg) no-repeat center/cover;
+}
+.product-main-left.lip{
+    background: url(../image/product/bg/lip.jpg) no-repeat center/cover;
+}
+.product-main-left.face{
+    background: url(../image/product/bg/face.jpg) no-repeat center/cover;
+}
+.product-main-left.hair{
+    background: url(../image/product/bg/hair.jpg) no-repeat center/cover;
+}
+.product-main-left.tool{
+    background: url(../image/product/bg/tool.jpg) no-repeat center/cover;
+}
+
+/* 상품 메인페이지 - 오른쪽 */
+.product-main-right{
+    width: 68%;
+}
+
+/* 상품 메인페이지 - 오른쪽(카테고리박스) */
+.product-category-bx{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.product-category-bx h1{
+    font-family: 'Gugi';
+}
+
+.product-category-option{
+    margin-left: 50px;
+    background-color: gainsboro;
+    padding: 8px 50px;
+    border-radius: 10px;
+}
+
+.product-category-option nav ul{
+    display: flex;
+}
+
+.product-category-option nav ul li{
+    margin-right: 15px;
+}
+
+.product-category-option nav ul li button{
+    font-family: 'Jua';
+    background-color: gainsboro;
+    border: 0;
+    font-size: 1.2rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.product-category-option nav ul li button.on{
+    color: #000;
+}
+/* 상품 메인페이지 - 오른쪽(select 박스) */
+.product-select-bx{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.priceOrder{
+    padding: 10px;
+}
+/* 상품 메인페이지 - 오른쪽(옵션 선택 결과 박스) */
+.product-option-result{
+    max-width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.product-option-result>div{
+    width: 32%;
+    background-color: #fafafa;
+    margin: 7px 5px 45px;
+}
+.product-result-img{
+    width: 100%;
+}
+.product-result-img>img{
+    cursor: pointer;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+/* 상품 메인페이지 - 오른쪽(옵션 선택 결과 박스) - 내용 */
+.product-result-content{
+    padding: 10px 20px 15px;
+}
+.product-result-content p:first-child{
+    font-family: 'Jua';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-result-content p:nth-child(2){
+    font-size: 1.1rem;
+    padding: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.product-result-content p:last-child{
+    background-color: #fff;
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

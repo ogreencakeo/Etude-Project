@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에뛰드-메인페이지</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <!-- 스와이퍼 초기화 -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 스와이퍼 CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- 폰트어썸 아이콘CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script src="../data/indexData.js"></script>
+    <script src="../js/index.js" defer></script>
+</head>
+<body>
+    <div class="main-wrap">
+        <!-- 헤더 -->
+        <header class="header">
+            <div class="nav-wrap">
+                <div class="logo">
+                    <img src="../image/logo.png" alt="로고이미지" onClick="location.href='./index.html'">
+                </div>
+                <ul></ul>
+            </div>
+        </header>
+        <div class="hambtn-wrap">
+            <div class="hambtn">
+                <button>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <!-- scroll버튼 -->
+        <div class="scroll-btn">
+            <button>
+                <h1 class="fa-solid fa-arrow-up"></h1>
+                <p>TOP</p>
+            </button>
+        </div>
+        <!-- 메인 -->
+        <main class="main">
+            <div class="header-swiper-container">
+                <h1>ETUDE HOUSE</h1>
+                <div class="swiper-wrapper"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- main1 -->
+            <div class="main1-wrap">
+            </div>
+            <!-- main2 -->
+            <div class="main2-wrap">
+                <div class="main2-icon-bx">
+                    <div>
+                        <div class="main2-icon-img">
+                            <img src="../image/main/main2/icon.png" alt="main2아이콘">
+                        </div>
+                        <section>
+                            <h2>Makeup Look</h2>
+                            <p>지금 나에게 어울리는 메이크업 룩은?</p>
+                            <button class="view-more">View More</button>
+                        </section>
+                    </div>
+                    <div class="main-img-bx">
+                    </div>
+                    <div class="main-title-bx">
+                        <img src="../image/main/main2/txt.png" alt="main2 텍스트">
+                    </div>
+                </div>
+            </div>
+            <!-- main3 -->
+            <div class="main3-wrap"></div>
+            <!-- main4 -->
+            <div class="main4-wrap">
+                <div class="icon-bx">
+                    <div class="icon-img">
+                        <img src="../image/main/main4/icon.png" alt="main4 아이콘">
+                    </div>
+                    <section>
+                        <h1>SOON JUNG</h1>
+                        <p>30년 History, 저자극 검증 System</p>
+                        <button class="view-more">View More</button>
+                    </section>
+                </div>
+                <div class="main4-div-wrap">
+                    <div class="main4-img-r">
+                        <!-- <img src="../image/main/main4/main.jpg" alt="main4 메인이미지"> -->
+                    </div>
+                    <div class="main4-img-l"></div>
+                </div>
+            </div>
+            <div class="gift-wrap">
+                <div class="icon-bx">
+                    <div class="icon-img">
+                        <img src="../image/main/gift/icon.png" alt="선물 아이콘">
+                    </div>
+                    <section>
+                        <h1>For Gift</h1>
+                        <p>무슨 선물할까 고민하지 말고 에뛰드 카카오톡 선물하기로 바로가기</p>
+                        <button class="view-more">View More</button>
+                    </section>
+                </div>
+                <div class="gift-bx-wrap"></div>
+            </div>
+            <!-- whatsNew -->
+            <div class="whats-new-wrap">
+                <div class="icon-bx">
+                    <div class="icon-img">
+                        <img src="../image/main/whatsNew/icon.png" alt="what's new 아이콘">
+                    </div>
+                    <section>
+                        <h1>What’s New</h1>
+                        <p>주목! 신상이 궁금해? 설레는 신상으로 채워지는 작은 행복</p>
+                        <button class="view-more">View More</button>
+                    </section>
+                </div>
+                <div class="whats-new-swipe-container">
+                    <div class="swiper-wrapper"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!-- sns-info -->
+            <div class="sns-info-wrap">
+                <div class="sns-bx-wrap">
+                    <div class="sns-bx1">
+                        <div>
+                            <img src="../image/main/sns/video-img.jpg" alt="비디오이미지">
+                            <section>
+                                <h2>FOLLOW US</h2>
+                                <h3>@etude_official</h3>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="sns-bx2">
+                        <div class="pink-bg"></div>
+                        <div class="sns-info-bx">
+                            <a href="https://www.instagram.com/etudeofficial/" target="_blank">
+                                <h1 class="fa-brands fa-instagram"></h1>
+                            </a>
+                            <a href="https://www.facebook.com/etudeofficial/" target="_blank">
+                                <h1 class="fa-brands fa-facebook-f"></h1>
+                            </a>
+                            <a href="https://www.youtube.com/user/etudeblog" target="_blank">
+                                <h1 class="fa-brands fa-youtube"></h1>
+                            </a>
+                            <a href="https://www.tiktok.com/@etude_official?is_from_webapp=1&sender_device=pc"
+                                target="_blank">
+                                <h1 class="fa-brands fa-tiktok"></h1>
+                            </a>
+                        </div>
+                        <div class="sns2-swipe-wrap">
+                            <div class="sns-bx2-swipe-container">
+                                <div class="swiper-wrapper"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- news&event -->
+            <div class="news-event-wrap">
+                <div class="icon-bx">
+                    <div class="icon-img">
+                        <img src="../image/main/eventNews/icon.png" alt="전등 아이콘">
+                    </div>
+                    <section>
+                        <h1>News & Event</h1>
+                        <button class="view-more">View More</button>
+                    </section>
+                </div>
+                <div class="news-event-swipe-container">
+                    <!-- 이전/다음 버튼 추가 -->
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
+
+                    <div class="swiper-wrapper"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </main>
+        <!-- 푸터 -->
+        <footer class="footer">
+            <div class="footer-l-wrap">
+                <div class="footer-l-bx-1">
+                    <span>공지</span>
+                    <span>[공지] 파운데이션 팩토리 서비스 변경 안내</span>
+                    <span>더보기 <b>＋</b></span>
+                </div>
+                <div class="footer-l-bx-2">
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">전자공고</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">영상정보처리기기 운영·관리 방침</a></li>
+                    </ul>
+                </div>
+                <div class="footer-l-bx-3">
+                    <div>
+                        <img src="../image/logo.png" alt="로고이미지">
+                    </div>
+                    <div>
+                        <p>(주)에뛰드 대표이사 : 이수연</p>
+                        <p>개인정보보호책임자 : 이수연</p>
+                        <p>사업자등록번호 : 135-81-05033</p>
+                        <p>주소 : 서울특별시 용산구 한강대로 100 (한강로 2가)</p>
+                    </div>
+                </div>
+                <div class="footer-l-bx-4">
+                    © ETUDE CORPORATION. ALL RIGHTS RESERVED.
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
